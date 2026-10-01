@@ -1,7 +1,7 @@
 # Maintainer: Greg O'Byrne <greg.obyrne@gmail.com>
 
 pkgname=markdowngonzo
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="A focused, local-first Markdown editor"
 arch=('x86_64')
@@ -12,7 +12,7 @@ optdepends=('libreoffice-fresh: export documents to PDF'
             'libreoffice-still: export documents to PDF')
 makedepends=('cargo' 'nodejs' 'npm')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('8d210cc878c347169175c54d20abb9323aed4cc25bad6ea9c305877ad26d355d')
+sha256sums=('11e3a89ff25cc0e58894db00101ed712c624640d2add037285276246e8f81b65')
 
 _dir="MarkDownGonzo-$pkgver/markdowngonzo"
 
